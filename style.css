@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+body{
+  padding: 5px;
+  background-color: #EBDFE6;
+  color: #661C47;
+  font-family: Verdana;
+  font-size: 15px;
+  vertical-align: middle;
+}
+ul a{
+  color: #EBDFE6;
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  height: 20px;
+  width: 90px;
+  padding: 10px;
+  text-align: center;
+  color: #EBDFE6;
+  border-left: 2px solid #E879B9;
+  border-right: 2px solid #E879B9;
+  background-color: #661C47;
+}
+li:hover{
+  background-color: #E879B9;
+  border-left: 2px solid #661C47;
+  border-right: 2px solid #661C47;
+}
+h1{
+  margin-left: 130px;
+  background-color: #FFF5FB;
+  width: 173px;
+}
+h2{
+  margin-left: 160px;
+}
+.pagina{
+  width: 450px;
+  background-color: #FFF5FB;
+  border-style: dashed;
+  border-width: thin;
+  border-color: #661C47;
+  border-radius: 15px;
+  padding: 0px 5px 0px 5px;
+}
+img.left{
+  float: left;
+  margin: 0em 0.5em 0em 0em;
+}
+header{
+  padding: 5px;
+}
+footer{
+  padding: 10px;
+}
+table{
+  border-collapse: collapse;
+  border: 1px dashed;
+  border-color: #661C47;
+  width: 400px;
+  margin-left: 24px;
+  margin-bottom: 20px;
+}
+td{
+  padding: 5px 5px;
+  background-color: #FCF5F7;
+  border: 1px dashed;
+  border-color: #661C47;
+}
+th{
+  padding: 15px 5px;
+  background-color: #E879B9;
+  border: 1px dashed;
+  border-color: #661C47;
+}
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  margin: 10px 10px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px #661C47;
+  margin-left: 24px;
+  margin-bottom: 20px;
+}
+textarea{
+  height: 100px;
+  padding: 5px 5px;
+}
+button:active{
+  background-color: #E879B9;
+  color: #661C47;
+  border-radius: 0px;
+  box-shadow: inset 2px 2px 5px #661C47;
+}
